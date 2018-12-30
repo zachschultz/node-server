@@ -1,1 +1,5 @@
-Boilerplate Node server with Passport for auth *TODO*: 1. Dockerize!
+# Node Server 
+Boilerplate Node server with Passport for auth 
+
+# Todo 
+1. Dockerize!
