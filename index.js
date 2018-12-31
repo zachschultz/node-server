@@ -5,7 +5,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  'mongodb://localhost:auth/auth',
+  // `mongo` instead of `localhost` because in the Dockerized environment the hostname is now `mongo` (from the docker-compose.yml file)
+  'mongodb://mongo:27017/auth',
   {useNewUrlParser: true},
 );
 
